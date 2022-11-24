@@ -1,0 +1,9 @@
+.contacts-app-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.contacts-app-container h1 {
+  margin: 20px 0px;
+}

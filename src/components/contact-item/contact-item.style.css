@@ -1,0 +1,7 @@
+.contact-item-container {
+  display: flex;
+  border-radius: 25px;
+  border: 2px dotted black;
+  padding: 20px;
+  margin: 10px;
+}

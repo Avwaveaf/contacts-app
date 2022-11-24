@@ -1,0 +1,9 @@
+.contact-item-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border-left: 2px solid gray;
+  margin-left: 50px;
+  text-align: start;
+  padding: 10px;
+}

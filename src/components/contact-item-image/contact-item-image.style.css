@@ -1,0 +1,7 @@
+.img-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 50px;
+  height: 70px;
+}
