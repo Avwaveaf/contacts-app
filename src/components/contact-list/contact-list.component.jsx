@@ -2,12 +2,12 @@ import { ContactItem } from "../contact-item/contact-item.component";
 import { getData } from "../../data";
 
 import "./contact-list.style.css";
-export const ContactList = () => {
-  const itemData = getData();
+import { useState } from "react";
+export const ContactList = ({ onDelete, contacts }) => {
   return (
     <div className="contact-list-container">
-      {itemData.map((data) => (
-        <ContactItem itemData={data} key={data.id} />
+      {contacts.map((data) => (
+        <ContactItem itemData={data} key={data.id} onDelete={onDelete} />
       ))}
     </div>
   );

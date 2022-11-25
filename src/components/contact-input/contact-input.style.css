@@ -1,0 +1,21 @@
+.contact-input {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  flex-direction: column;
+  padding: 20px;
+  border: 2px dotted black;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color: whitesmoke;
+}
+.contact-input input {
+  margin: 2px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.contact-input button {
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
